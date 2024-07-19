@@ -2,11 +2,11 @@ package semonster2;
 
 import java.util.Random;
 
-public class semonster2 {
+public class Semonster2 {
   private String name;
   private int rare; // 戦うとレア度が高いほうが勝つ．同じ場合は引き分け
 
-  semonster2() {
+  Semonster2() {
     this.rare = this.randomRarity();
     this.name = this.summonMonster();
   }

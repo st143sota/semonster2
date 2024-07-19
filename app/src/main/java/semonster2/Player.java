@@ -6,12 +6,52 @@ public class Player {
   String name;
   ArrayList<Monster> list;
 
-  // コンストラクタ、ゲッター、セッターなどのメソッドをここに追加...
+  public Player(String name) {
+    this.name = name;
+    this.list = new ArrayList<>();
+  }
+
+  // ゲッターとセッター
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public ArrayList<Monster> getList() {
+    return list;
+  }
+
+  public void setList(ArrayList<Monster> list) {
+    this.list = list;
+  }
 }
 
-class Monster {
+public class Monster {
   String monsterName;
   int rarity;
 
-  // コンストラクタ、ゲッター、セッターなどのメソッドをここに追加...
+  public Monster(String monsterName, int rarity) {
+    this.monsterName = monsterName;
+    this.rarity = rarity;
+  }
+
+  // ゲッターとセッター
+  public String getMonsterName() {
+    return monsterName;
+  }
+
+  public void setMonsterName(String monsterName) {
+    this.monsterName = monsterName;
+  }
+
+  public int getRarity() {
+    return rarity;
+  }
+
+  public void setRarity(int rarity) {
+    this.rarity = rarity;
+  }
 }
