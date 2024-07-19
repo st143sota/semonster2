@@ -1,4 +1,4 @@
-package semonster2;
+package main.java.semonster2;
 
 public class Battle {
   public static void startBattle(Player p1, Player p2) {

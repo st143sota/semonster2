@@ -1,4 +1,4 @@
-package semonster2;
+package test.java.semonster2;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
