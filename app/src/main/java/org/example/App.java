@@ -1,4 +1,4 @@
-package semonster2;
+package org.example;
 
 public class App {
   public String getGreeting() {
